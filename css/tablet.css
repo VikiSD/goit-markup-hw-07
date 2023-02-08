@@ -1,0 +1,180 @@
+@media screen and (min-width:768px) {
+    
+    .conteiner {
+       max-width: 768px;
+    }
+    
+    .header{
+        max-height: 70px;
+        max-width: 768px;
+    }
+
+    .menu-open{
+        display: none;
+    }
+
+    .menu-general{
+        display: block;
+    }
+
+     .header-navigation>a {
+        margin-right: 120px;
+    }
+    
+    .header-list,
+    .header-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation {
+       display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+       text-decoration: none;
+       font-family: Roboto;
+       font-style: normal;
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+       color: var(--main-font-color);
+       padding-top: 24px;
+       padding-bottom: 22px;
+       position: relative;
+       transition: 250ms;
+       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+   .nav-link {
+      margin-right: 40px;
+    }
+
+   .nav-link:last-child {
+      margin-right: 0;
+    }
+
+    
+    .menu-general>.header-link{
+    display: block;
+    margin-left: auto;
+    }
+
+
+  .mail-link,
+  .tel {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    color: var(--secondary-font-color);
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .tel:hover,
+  .tel:focus,
+  .navigation:hover,
+  .navigation:focus,
+  .mail-link:hover,
+  .mail-link:focus {
+    color: var(--secondary-accent-color);
+  }
+
+  .navigation.current {
+    color: var(--secondary-accent-color);
+  }
+
+.header-list .navigation.current::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0px;
+    border-radius: 2px;
+    display: block;
+    background-color: var(--secondary-accent-color);
+  }
+
+
+    .hero{
+        background-image: var(--bg-gradient), url(../images/people-office\ 1_tablet.jpg);
+        max-width: 768px;
+        padding-top: 111px;
+        padding-bottom: 108px;
+    }
+
+    .hero h1{
+        font-size: 56px;
+        max-width: 494px;
+        margin: 0 auto 40px;
+    }
+
+
+    .team-item {
+        gap: 64px 24px;
+    }
+  
+    .customer-list{
+      column-gap: 24px;
+    }
+
+    .customer-item{
+        width: 168px;
+    }
+
+    .we-doing {
+        display: none;
+    }
+
+    .our-adv-list {
+        column-gap: 24px;
+    }
+
+    .our-adv-item {
+      width: 356px;
+    }
+
+
+
+    .logo-tagline{
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: start;
+      margin: 0;
+
+    }
+
+    .footer-soc-list>.sm,
+    .footer-subscribe>.sm {
+        text-align: start;
+    }
+    .footer-soc-list{
+        margin: 0;
+    }
+
+    .three-boxes {
+        row-gap: 72px;
+        column-gap: 24px;
+        margin-right: auto;
+        align-items: flex-start;
+    }
+
+    .sub-wrap {
+        display: flex;
+        gap: 24px;
+        flex-wrap: nowrap;
+    }
+
+     .footer-input {
+        width: 264px;
+    }
+
+}

@@ -1,0 +1,168 @@
+@media screen and (min-width:1200px){
+    
+    body {
+        width: 1440px;
+    }
+
+    .conteiner{
+        max-width: 1158px;
+    }
+     
+    .header {
+        max-height: 76px;
+        width: 1440px;
+        position: fixed;
+        z-index: 10;
+    }
+
+    .header-navigation{
+    
+    }
+
+
+   .header-navigation>a {
+    margin-right: 76px;
+    }
+    
+
+    .menu-general>.header-link{
+      display: flex;
+      align-items: center;
+      /* flex-wrap: nowrap; */
+      margin-left: 332px;
+      gap: 40px;
+    }
+
+    .mail-link,
+    .tel{
+    display: flex;
+    font-size: 16px;
+    line-height: 1.5;
+    }
+
+
+
+    .hero {
+        background-image: var(--bg-gradient), url(../images/people-office\ 1.jpg);
+        max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+    .hero h1 {
+        margin: 0 auto 48px;
+    }
+
+
+    .main {
+        padding-top: 76px;
+    }
+
+    .our-adv {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    
+    .our-adv-list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+    
+    
+    .our-adv-item {
+        width: 264px;
+        height: 224px;
+    }
+    
+    .our-adv-icon {
+        max-width: 264px;
+        max-height: 112px;
+        background-color: var(--secondary-light-color);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;
+        padding: 24px 0;
+    }
+    
+    .our-adv h2 {
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    
+    .our-adv-item>.description {
+        font-weight: 400;
+    }
+
+    .team-item {
+        flex-wrap: nowrap;
+        gap: 24px;
+        flex-direction: row;
+     }
+
+   .team {
+      padding-top: 120px;
+      padding-bottom: 120px;
+   }
+
+   .customers {
+       padding-top: 130px;
+       padding-bottom: 120px;
+   }
+
+   .customer-list{
+     flex-wrap: nowrap;
+       gap: 24px;
+   }
+
+    .customer-item {
+     flex-wrap: nowrap;
+     gap: 24px;
+    }
+
+    .customer-link{
+      width: 168px;
+    }
+
+    .we-doing {
+        display: flex;
+        padding-bottom: 120px;
+    }
+
+    .we-doing-item {
+        display: flex;
+        gap: 24px;
+    }
+    
+
+    .footer{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .logo-tagline {
+        margin-right: 120px;
+    }
+
+    .footer-soc-list{
+        margin-right: 80px;
+    }
+
+    .three-boxes {
+        flex-wrap: nowrap;
+        row-gap: 0;
+        column-gap: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+
+   
+
+
+
+
+
+}
