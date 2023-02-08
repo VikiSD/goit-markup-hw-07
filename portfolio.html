@@ -8,24 +8,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
 </head>
 <body>
-    <header class="header">
-        <div class="conteiner header-link">
-            <nav class="header-navigation">
-                <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
+<header class="header">
+    <div class="conteiner header-link">
+        <nav class="header-navigation">
+            <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
+            <button type="button" class="menu-open" data-menu-open>
+                <svg class="menu-open-icon" width="32" height="22" aria-label="on-off">
+                    <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+                </svg></button>
+            <div class="menu-general">
                 <ul class="list header-list">
-                    <li class="nav-link"><a href="./index.html" class="navigation">Studio</a></li>
+                    <li class="nav-link"><a href="./index.html" class="navigation ">Studio</a></li>
                     <li class="nav-link"><a href="./portfolio.html" class="navigation current">Portfolio</a> </li>
                     <li class="nav-link"><a href="#" class="navigation">Contacts</a></li>
                 </ul>
-            </nav>
+            </div>
+        </nav>
+        <div class="menu-general">
             <ul class="list header-link">
-                 <li><a href="mailto:info@devstudio.com" class="mail-link">info@devstudio.com</a></li>
-                 <li><a href="tel:+11(000)1111111" class="tel">+11 (000) 111-11-11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="mail-link ">info@devstudio.com</a></li>
+                <li><a href="tel:+11(000)1111111" class="tel">+11 (000) 111-11-11</a></li>
             </ul>
         </div>
-    </header>
+    </div>
+</header>
     <main class="main">
     <section class="porfolio-menu">
        <div class="conteiner">
@@ -178,7 +189,7 @@
     </section>
     </main>
     <footer class="footer">
-        <div class="conteiner">
+        <div class="conteiner three-boxes">
             <div class="logo-tagline">
                 <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
                 <p class="tagline">Increase the flow of customers and sales for your business with digital marketing &

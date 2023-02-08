@@ -80,8 +80,8 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: var(--main-light-color);
-  max-height: 70px;
-  max-width: 428px;
+  height: 70px;
+  /* width: 100%; */
   border-bottom: 1px solid #E7E9FC;
 }
 
@@ -91,6 +91,7 @@ body {
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
+  max-width: 428px;
 }
 
 .header-navigation {
@@ -98,6 +99,7 @@ body {
   position: relative;
   align-items: center;
   margin-right: auto;
+  height: inherit;
 }
 
 .header-navigation>a {

@@ -9,27 +9,31 @@
     }
      
     .header {
-        max-height: 76px;
+        height: 76px;
         width: 1440px;
         position: fixed;
         z-index: 10;
     }
 
-    .header-navigation{
-    
-    }
-
+   .header>.conteiner {
+       height: 76px;
+       max-width: 1128px;
+   }
 
    .header-navigation>a {
     margin-right: 76px;
     }
     
+    .navigation{
+    padding-top: 24px;
+    padding-bottom: 28px;
+        }
 
     .menu-general>.header-link{
       display: flex;
       align-items: center;
       /* flex-wrap: nowrap; */
-      margin-left: 332px;
+      margin-left: 292px;
       gap: 40px;
     }
 
