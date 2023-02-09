@@ -30,9 +30,62 @@
                 </div>
             </nav>
             <div class="menu-general">
-                <ul class="list header-link">
-                     <li><a href="mailto:info@devstudio.com" class="mail-link ">info@devstudio.com</a></li>
-                     <li><a href="tel:+11(000)1111111" class="tel">+11 (000) 111-11-11</a></li>
+                    <ul class="list header-link">
+                         <li><a href="mailto:info@devstudio.com" class="mail-link ">info@devstudio.com</a></li>
+                         <li><a href="tel:+11(000)1111111" class="tel">+11 (000) 111-11-11</a></li>
+                    </ul>
+            </div>
+        </div>
+        <!-- --------------------MOB MENU--------------------- -->
+        <div class="mob-menu is-hidden"  data-menu>
+            <button type="button" class="btn-close menu-close" data-menu-close>
+                <svg class="close" width="8" height="8">
+                    <use href="./images/icons.svg#icon-modal-close"></use>
+                </svg>
+            </button>
+            <div class="mob-menu-top">
+                <nav>
+                    <ul class="list mob-menu-list">
+                        <li class="nav-link"><a href="./index.html" class="navigation current">Studio</a></li>
+                        <li class="nav-link"><a href="./portfolio.html" class="navigation">Portfolio</a> </li>
+                        <li class="nav-link"><a href="#" class="navigation">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="mob-menu-bottom">
+                <ul class="list mob-menu-link">
+                    <li class="mob-link-tel"><a href="tel:+11(000)1111111" class="tel">+11 (000) 111-11-11</a></li>
+                    <li class="mob-link-mail"><a href="mailto:info@devstudio.com" class="mail-link ">info@devstudio.com</a></li>
+                </ul>
+                <ul class="list mob-menu-soc">
+                    <li class="soc-item">
+                        <a href="#" class="link team-soc-link">
+                            <svg class="team-soc-icon" width="16" height="16">
+                                <use href="./images/icons.svg#icon-inst"></use>
+                            </svg>
+                        </a>
+                    </li>
+                   <li class="soc-item">
+                        <a href="#" class="link team-soc-link">
+                            <svg class="team-soc-icon" width="16" height="16">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                   </li>
+                    <li class="soc-item">
+                        <a href="#" class="link team-soc-link">
+                            <svg class="team-soc-icon" width="16" height="16">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="soc-item">
+                        <a href="#" class="link team-soc-link">
+                            <svg class="team-soc-icon" width="16" height="16">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -104,7 +157,9 @@
             <h2>Our Team</h2>
             <ul class="list team-item">
                 <li class="team-gallery">
-                    <img src="./images/ourteam1.jpg" alt="Product Designer" width="264" height="260">
+                    <img src="./images/ourteam1.jpg" alt="Product Designer" 
+                    srcset="./images/ourteam1.jpg 1x, ./images/ourteam1-2x.jpg 2x" 
+                    width="264" height="260">
                     <div class="team-card">
                         <h3 class="title">Mark Guerrero</h3>
                         <p class="description">Product Designer</p>
@@ -135,7 +190,9 @@
                     </div>
                 </li>
                 <li class="team-gallery">
-                    <img src="./images/ourteam2.jpg" alt="Frontend Developer" width="264" height="260">
+                    <img src="./images/ourteam2.jpg" alt="Frontend Developer" 
+                    srcset="./images/ourteam2.jpg 1x, ./images/ourteam2-2x.jpg 2x"
+                    width="264" height="260">
                     <div class="team-card">
                         <h3 class="title">Tom Ford</h3>
                         <p class="description">Frontend Developer</p>
@@ -166,7 +223,9 @@
                     </div>
                 </li>
                 <li class="team-gallery">
-                    <img src="./images/ourteam3.jpg" alt="Marketing" width="264" height="260">
+                    <img src="./images/ourteam3.jpg" alt="Marketing" 
+                    srcset="./images/ourteam3.jpg 1x, ./images/ourteam3-2x.jpg 2x"
+                    width="264" height="260">
                     <div class="team-card">
                         <h3 class="title">Camila Garcia</h3>
                         <p class="description">Marketing</p>
@@ -197,7 +256,9 @@
                     </div>
                 </li>
                 <li class="team-gallery">
-                    <img src="./images/ourteam4.jpg" alt="UI Designer" width="264" height="260">
+                    <img src="./images/ourteam4.jpg" alt="UI Designer" 
+                    srcset="./images/ourteam4.jpg 1x, ./images/ourteam4-2x.jpg 2x"
+                    width="264" height="260">
                     <div class="team-card">
                         <h3 class="title">Daniel Wilson</h3>
                         <p class="description">UI Designer</p>
@@ -329,7 +390,7 @@
 
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button type="button" class=" btn-modal-close" data-modal-close>
+        <button type="button" class=" btn-close" data-modal-close>
             <svg class="close" width="8" height="8">
                 <use href="./images/icons.svg#icon-modal-close"></use>
             </svg>

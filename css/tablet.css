@@ -9,6 +9,11 @@
         max-width: 768px;
     }
 
+
+    .mob-menu {
+        display: none;
+    }
+
     .menu-open{
         display: none;
     }
@@ -28,24 +33,24 @@
 
     }
 
-    .navigation {
-       display: flex;
+  .navigation {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 24px;
+    padding-bottom: 22px;
+       /* display: flex;
         flex-direction: row;
         align-items: flex-start;
         padding: 0px;
        text-decoration: none;
        font-family: Roboto;
        font-style: normal;
-       font-weight: 500;
-       font-size: 16px;
-       line-height: 1.5;
        letter-spacing: 0.02em;
        color: var(--main-font-color);
-       padding-top: 24px;
-       padding-bottom: 22px;
        position: relative;
        transition: 250ms;
-       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  */
     }
 
    .nav-link {
@@ -79,20 +84,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .tel:hover,
-  .tel:focus,
-  .navigation:hover,
-  .navigation:focus,
-  .mail-link:hover,
-  .mail-link:focus {
-    color: var(--secondary-accent-color);
-  }
-
-  .navigation.current {
-    color: var(--secondary-accent-color);
-  }
-
-.header-list .navigation.current::after {
+  .header-list .navigation.current::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -110,7 +102,15 @@
         padding-top: 111px;
         padding-bottom: 108px;
     }
-
+    
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+          .hero-ground {
+            background-image: var(--bg-gradient),
+              url(../images/people-office\ 1_tablet-2x.jpg)
+          }
+        }
     .hero h1{
         font-size: 56px;
         max-width: 494px;
@@ -177,4 +177,34 @@
         width: 264px;
     }
 
+    .modal{
+      width: 408px;
+      padding-left: 24px;
+      padding-right: 24px;
+      top: 80px;
+    }
+   
+      .portfolio-btn{
+        flex-wrap: nowrap;
+        margin-bottom: 64px;
+        justify-content: center;
+      }
+
+
+.porfolio-menu {
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+.project-card {
+  max-width: 356px;
+  min-height: 420px;
+  /* flex-basis: calc((100%-24)/2); */
+}
+
+.portfolio-cards{
+  gap: 72px 24px;
+  justify-content: space-between;
+}
+  
 }
